@@ -4,16 +4,7 @@ public class ConcreteVisitor implements Visitor {
 
  
 	
-	public static void calculatePackaging(HouseholdItem h) {
-		
-		
-		
-		//System.out.println("Total Cost for " + +" is: " + +" Euros");
-	}
-	
-	public static void calaculateMovingCosts(HouseholdItem h) {
-		
-	}
+
 
 	@Override
 	public void visitGlass(Glass g) {

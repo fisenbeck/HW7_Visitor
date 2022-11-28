@@ -23,6 +23,20 @@ public class Client {
 		List<HouseholdItem> namesList = Arrays.asList(microwaveOven, tv, wineGlass, coffeeTable, bed, cupboard);
 		householdItmes.addAll(namesList);
 
+		 
+	}
+	
+	public  void calculatePackaging(List<HouseholdItem> householdItmes) {
+		Visitor visitor = new ConcreteVisitor();
+		for(HouseholdItem householdItme: householdItmes) {
+			
+			//System.out.println("Total Cost for " +  +" is: " +  +" Euros");
+		}
+	
+		
+	}
+	
+	public static void calaculateMovingCosts(HouseholdItem h) {
 		
 	}
 
